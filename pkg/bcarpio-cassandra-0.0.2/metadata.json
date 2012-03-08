@@ -1,0 +1,33 @@
+{
+  "license": "UNKNOWN",
+  "source": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "project_page": "UNKNOWN",
+  "description": "UNKNOWN",
+  "summary": "Installs cassandra and creates a 4 node cluster with simple changes in params.pp.",
+  "author": "Brian Carpio",
+  "version": "0.0.2",
+  "name": "bcarpio-cassandra",
+  "checksums": {
+    "manifests/init.pp": "a4b3fec75b1e2b286e63e7f4be9af83c",
+    "README.markdown": "b14e84b9de9b277f4e83d1d644bf5dcb",
+    "templates/conf/cassandra.yaml.erb": "cb72823afccaf318f82547d4f4a67f04",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "files/mx4j-tools.jar": "2bcdbad25d93fd8a05dbb561e248ee0a",
+    "templates/conf/log4j-server.properties.erb": "e86bb8c51aea4ab8d42fce6c6bd2bab0",
+    "manifests/params.pp": "1f55242b7b63e6f9870e158a30c99acc",
+    "templates/conf/cassandra-env.sh.erb": "3a932072a867bccd876d4d01a4ebdb57",
+    "Modulefile": "77fddc52cc737e2880f3a58cd44783c9",
+    "tests/init.pp": "24a5bf50d244fe377afd3e72327849d8",
+    "templates/home/bash_profile.erb": "7b362d462286eb36024ae2d77a3370eb",
+    "README": "2a65b8c063503e5b50aa631c555a557c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "files/apache-cassandra-1.0.8-bin.tar.gz": "676887f6d185689c3383908f3ad8e015"
+  }
+}

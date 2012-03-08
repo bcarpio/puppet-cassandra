@@ -1,0 +1,5 @@
+# Set Users path
+export PATH=$PATH:<%= scope.lookupvar('cassandra::params::java_home') %>/bin:<%= scope.lookupvar('cassandra::params::cassandra_base') %>/apache-cassandra/bin:
+
+# Set JAVA_HOME (we will also configure JAVA_HOME directly for Hadoop later on)
+export JAVA_HOME=<%= scope.lookupvar('cassandra::params::java_home') %>
